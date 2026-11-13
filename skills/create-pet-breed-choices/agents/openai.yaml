@@ -1,0 +1,13 @@
+interface:
+  display_name: 品种选择图
+  short_description: 按固定圣诞模板制作宠物或产品选择图，自动识别品种与标题、分页编号并标注英文颜色
+  default_prompt: 使用 $create-pet-breed-choices 将我上传的图片制作成可下载的品种选择图，自动识别宠物品种并将标题改为对应英文品种名称，判断英文颜色并按数量分页。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

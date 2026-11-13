@@ -1,0 +1,13 @@
+interface:
+  display_name: 文件夹批量出图
+  short_description: 读取文件夹原图，轮换款式制作一套商品展示图和完整品种选择图并存回原处
+  default_prompt: 用 $batch-pet-listing-images 处理指定文件夹，生成全套图和品种选择图并存回原文件夹。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
