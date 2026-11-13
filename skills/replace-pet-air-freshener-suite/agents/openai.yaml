@@ -1,0 +1,13 @@
+interface:
+  display_name: 全套图
+  short_description: 商品展示、人宠场景与品种选择图，支持双灯点亮的小夜灯对照模板
+  default_prompt: 使用 $replace-pet-air-freshener-suite 按本批产品和指定模块制作全套图，核对款式、标题、数量后打包。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
