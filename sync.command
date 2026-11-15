@@ -5,7 +5,7 @@ git -C "$repo" pull --ff-only
 skill_root="${CODEX_HOME:-$HOME/.codex}/skills"
 backup_root="$repo/.local-backups/$(date +%Y%m%d-%H%M%S)-$$"
 mkdir -p "$skill_root"
-for name in replace-pet-air-freshener-suite batch-pet-listing-images create-pet-breed-choices; do
+for name in replace-pet-air-freshener-suite; do
   source_dir="$repo/skills/$name"
   target="$skill_root/$name"
   if [ -e "$target" ]; then
