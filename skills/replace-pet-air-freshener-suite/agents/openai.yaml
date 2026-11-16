@@ -1,6 +1,6 @@
 interface:
   display_name: 全套图
-  short_description: 商品展示、人宠场景与品种选择图，支持双灯点亮的小夜灯对照模板
+  short_description: 按产品读取规则，复用固定版式，整组技术检查与集中审核
   default_prompt: "使用 $replace-pet-air-freshener-suite 按本批产品和指定模块制作全套图，核对款式、标题、数量后逐张交付PNG。"
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg

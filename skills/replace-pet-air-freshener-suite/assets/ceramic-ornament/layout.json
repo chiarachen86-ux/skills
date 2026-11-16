@@ -1,0 +1,276 @@
+{
+  "product": "ceramic-ornament",
+  "scope": "approved frontal round geometry, 4-choice pages and 2-style page; not arbitrary views/counts",
+  "font": "bold Brittany Signature; resource not bundled",
+  "templates": [
+    {
+      "file": "风格选择图.png",
+      "sha256": "21da1f75c20f7537c03b32673418bb1c50d74ea519b5ac9954cae94418fd68dd",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "slots": [
+        {
+          "circle_bbox": [
+            46,
+            342,
+            618,
+            914
+          ],
+          "artwork_target_bbox": [
+            115,
+            411,
+            549,
+            794
+          ],
+          "name_target_bbox": [
+            172,
+            817,
+            492,
+            880
+          ],
+          "name_gap_min_px": 23
+        },
+        {
+          "circle_bbox": [
+            622,
+            342,
+            1194,
+            914
+          ],
+          "artwork_target_bbox": [
+            691,
+            411,
+            1125,
+            794
+          ],
+          "name_target_bbox": [
+            748,
+            817,
+            1068,
+            880
+          ],
+          "name_gap_min_px": 23
+        }
+      ],
+      "typography_status": "new artwork/name target regions; validate visually on first suite, exact font unavailable",
+      "ruler": null
+    },
+    {
+      "file": "品种选择图 (1).png",
+      "sha256": "244400a9d4dd3871e7062c4b35e00319647e46983c5f1ed3695f9f72965d93ba",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "slots": [
+        {
+          "circle_bbox": [
+            197,
+            191,
+            597,
+            591
+          ],
+          "artwork_target_bbox": [
+            245,
+            239,
+            549,
+            507
+          ],
+          "name_target_bbox": [
+            285,
+            523,
+            509,
+            567
+          ],
+          "name_gap_min_px": 16
+        },
+        {
+          "circle_bbox": [
+            645,
+            191,
+            1045,
+            591
+          ],
+          "artwork_target_bbox": [
+            693,
+            239,
+            997,
+            507
+          ],
+          "name_target_bbox": [
+            733,
+            523,
+            957,
+            567
+          ],
+          "name_gap_min_px": 16
+        },
+        {
+          "circle_bbox": [
+            197,
+            657,
+            597,
+            1057
+          ],
+          "artwork_target_bbox": [
+            245,
+            705,
+            549,
+            973
+          ],
+          "name_target_bbox": [
+            285,
+            989,
+            509,
+            1033
+          ],
+          "name_gap_min_px": 16
+        },
+        {
+          "circle_bbox": [
+            645,
+            657,
+            1045,
+            1057
+          ],
+          "artwork_target_bbox": [
+            693,
+            705,
+            997,
+            973
+          ],
+          "name_target_bbox": [
+            733,
+            989,
+            957,
+            1033
+          ],
+          "name_gap_min_px": 16
+        }
+      ],
+      "typography_status": "new artwork/name target regions; validate visually on first suite, exact font unavailable",
+      "ruler": null
+    },
+    {
+      "file": "品种选择图 (2).png",
+      "sha256": "d10c8b42e31f03204bc83525b0165a297cabceb3428174ee88b8609f6f6e6534",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "slots": [
+        {
+          "circle_bbox": [
+            210,
+            190,
+            610,
+            590
+          ],
+          "artwork_target_bbox": [
+            258,
+            238,
+            562,
+            506
+          ],
+          "name_target_bbox": [
+            298,
+            522,
+            522,
+            566
+          ],
+          "name_gap_min_px": 16
+        },
+        {
+          "circle_bbox": [
+            642,
+            190,
+            1042,
+            590
+          ],
+          "artwork_target_bbox": [
+            690,
+            238,
+            994,
+            506
+          ],
+          "name_target_bbox": [
+            730,
+            522,
+            954,
+            566
+          ],
+          "name_gap_min_px": 16
+        },
+        {
+          "circle_bbox": [
+            210,
+            663,
+            610,
+            1063
+          ],
+          "artwork_target_bbox": [
+            258,
+            711,
+            562,
+            979
+          ],
+          "name_target_bbox": [
+            298,
+            995,
+            522,
+            1039
+          ],
+          "name_gap_min_px": 16
+        },
+        {
+          "circle_bbox": [
+            642,
+            663,
+            1042,
+            1063
+          ],
+          "artwork_target_bbox": [
+            690,
+            711,
+            994,
+            979
+          ],
+          "name_target_bbox": [
+            730,
+            995,
+            954,
+            1039
+          ],
+          "name_gap_min_px": 16
+        }
+      ],
+      "typography_status": "new artwork/name target regions; validate visually on first suite, exact font unavailable",
+      "ruler": null
+    },
+    {
+      "file": "尺寸材质图.png",
+      "sha256": "9b43900fd313338dbca063f94dd0a5b3ccf82d1753d420c1422991bae7b508e8",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "slots": [],
+      "typography_status": "new artwork/name target regions; validate visually on first suite, exact font unavailable",
+      "ruler": {
+        "x_endpoints": [
+          134,
+          790
+        ],
+        "baseline_y": 940,
+        "protected_outside_bbox": [
+          134,
+          919,
+          791,
+          960
+        ]
+      }
+    }
+  ]
+}
