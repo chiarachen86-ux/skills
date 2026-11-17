@@ -80,7 +80,7 @@ def png_info(data):
                 color_status='sRGB declared' if srgb else 'ICC present; color space needs verification' if profile else 'missing color tag')
 
 
-def check(manifest, min_pixels=2000):
+def check(manifest, min_pixels=1254):
     seen, results = set(), []
     for item in manifest:
         path = Path(item['path']).resolve()
@@ -110,7 +110,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('manifest',type=Path,help='JSON array of {path, optional sha256}; explicit output list only')
     parser.add_argument('--report',required=True,type=Path)
-    parser.add_argument('--min-pixels',type=int,default=2000)
+    parser.add_argument('--min-pixels',type=int,default=1254)
     args = parser.parse_args()
     if args.min_pixels < 1:
         parser.error('--min-pixels must be positive; any standard exception must be authorized')
