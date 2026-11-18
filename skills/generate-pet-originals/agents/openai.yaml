@@ -1,4 +1,4 @@
 interface:
   display_name: "生成原图"
   short_description: "根据参考图批量制作差异化宠物配色原图，透明底双款打包并邮件通知"
-  default_prompt: "使用 $generate-pet-originals，按参考图和品种配色列表生成圣诞款、花圈款透明原图，分类打包并发邮件通知。"
+  default_prompt: "使用 $generate-pet-originals，按参考图和品种配色列表生成圣诞款、花圈款透明原图，全部放在同一文件夹打包并发邮件通知。"
