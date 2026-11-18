@@ -4,7 +4,7 @@ $repo = $PSScriptRoot
 if ($LASTEXITCODE -ne 0) { throw 'GitHub sync failed. Local skills were not changed.' }
 $skillRoot = if ($env:CODEX_HOME) { Join-Path $env:CODEX_HOME 'skills' } else { Join-Path $env:USERPROFILE '.codex/skills' }
 New-Item -ItemType Directory -Force $skillRoot | Out-Null
-$skillNames = @('replace-pet-air-freshener-suite')
+$skillNames = @('replace-pet-air-freshener-suite', 'generate-pet-originals')
 $backupRoot = Join-Path $repo ('.local-backups/' + (Get-Date -Format 'yyyyMMdd-HHmmss-fff') + '-' + $PID)
 foreach ($name in $skillNames) {
   $source = Join-Path $repo "skills/$name"
@@ -15,4 +15,4 @@ foreach ($name in $skillNames) {
   }
   Copy-Item -LiteralPath $source -Destination $skillRoot -Recurse -Force
 }
-Write-Host '全套图已同步。请在 Codex 新聊天中使用更新后的技能。'
+Write-Host '全套图和生成原图已同步。请在 Codex 新聊天中使用更新后的技能。'
